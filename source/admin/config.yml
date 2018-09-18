@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: sunya9/unsweets.log
+  repo: yudecchi/yudelog
   branch: master
 
 media_folder: source/images/
