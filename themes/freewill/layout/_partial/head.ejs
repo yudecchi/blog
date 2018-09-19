@@ -1,5 +1,5 @@
 <!DOCTYPE HTML><!-- _partial/head -->
-<html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <%
@@ -27,10 +27,8 @@
   <% } %>
   <% if (page.keywords){ %><meta name="keywords" content="<%= page.keywords %>"><% } %>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
   <% if (page.title){ %><meta property="og:title" content="<%= page.title %>"/><% } %>
   <meta property="og:site_name" content="<%= config.title %>"/>
-
   <% if(page.cover) { %>
     <meta property="og:image" content="<%= page.cover %>" />
   <% } else { %>
@@ -45,18 +43,13 @@
   <% } %>
 
   <% if (theme.bootswatch){ %>
-  <link rel="stylesheet" href="<%- config.root %>css/bootstrap.<%- theme.bootswatch %>.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/<%- theme.bootswatch %>/bootstrap.min.css" media="screen" type="text/css">
   <% } else { %>
-  <link rel="stylesheet" href="<%- config.root %>css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" type="text/css">
   <% } %>
-  <link rel="stylesheet" href="<%- config.root %>css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/highlight.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-  <script src="<%- config.root %>js/jquery-2.0.3.min.js"></script>
-
-  <!-- analytics -->
-  <%- partial('post/google_analytics') %>
-
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
