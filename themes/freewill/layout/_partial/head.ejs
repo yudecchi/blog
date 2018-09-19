@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><!-- _partial/head -->
+<!DOCTYPE HTML>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
@@ -34,14 +34,12 @@
   <% } else { %>
     <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
-
   <% if (theme.rss){ %>
     <link rel="alternative" href="<%- config.root %><%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
   <% if (theme.favicon){ %>
     <link href="<%- config.root %><%- theme.favicon %>" rel="icon">
   <% } %>
-
   <% if (theme.bootswatch){ %>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/<%- theme.bootswatch %>/bootstrap.min.css" media="screen" type="text/css">
   <% } else { %>

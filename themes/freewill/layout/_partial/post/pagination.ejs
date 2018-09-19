@@ -1,4 +1,3 @@
-<!-- _partial/post/pagination -->
 <div class="pagination">
 <ul class="pagination">
 	 <% if (page.prev || page.next) { %>
@@ -7,9 +6,7 @@
   		<% } else { %>
           <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i><%= __('prev') %></a></li>
         <% } %>
-
         <li><a href="<%- config.root %><%- theme.menu[0].url %>"><i class="fa fa-archive"></i>Archive</a></li>
-
 		<% if (page.next){ %>
 		   <li class="next"><a href="<%- config.root %><%- page.next.path %>" class="alignright next"><%= __('next') %><i class="fa fa-arrow-circle-o-right"></i></a></li>
         <% } else { %>
