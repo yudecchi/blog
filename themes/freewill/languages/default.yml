@@ -1,14 +1,14 @@
-categories: Categories
-search: Search
-tags: Tags
-tagcloud: "Tag Cloud"
-tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
-page: "Page %d"
-recent_posts: "Recent Posts"
-description: Description
-read_more: "Read More"
+categories: カテゴリー
+search: 検索
+tags: タグ
+tagcloud: "タグクラウド"
+tweets: ツイート
+prev: 前
+next: 次
+comment: コメント
+archive_a: アーカイブ
+archive_b: "アーカイブ: %s"
+page: "ページ %d"
+recent_posts: "最近の投稿"
+description: 説明
+read_more: "もっと見る..."
