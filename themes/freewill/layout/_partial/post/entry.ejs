@@ -1,4 +1,3 @@
-<!-- _partial/post/entry -->
 <div class="panel-body">
   <div class="row">
   <% if (item.feature ) { %>
@@ -17,7 +16,6 @@
 	  <div class="thumbnail"><a href="<%- config.root %><%= item.path %>"><img src="<%= config.root %><%= item.feature %>" alt="<%= item.title %>"  class="nofancybox"></a></div>
 	</div>
 	<% } %>
-
 </div>
 	<a type="button" href="<%- config.root %><%- item.path %>#more" class="btn btn-default more"><%= __('read_more') %></a>
 </div>
