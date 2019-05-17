@@ -28,6 +28,7 @@ widgets:
 - tagcloud
 - recent_posts
 - links
+- sponsor
 
 rss: true
 fancybox: true
