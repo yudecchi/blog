@@ -1,6 +1,6 @@
 ---
 title: 外部ストレージにアプリを移動できないんだが？
-date: '2019/05/10 12:00:00'
+date: '2019/05/19 10:10:21'
 categories:
   - Android
 author: yude
