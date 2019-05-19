@@ -1,0 +1,21 @@
+# Site
+author: yude
+author_title: 特に何も行っていない
+avatar: https://avatars.githubusercontent.com/yudete
+
+# URL
+url: https://blog.yude.moe
+
+# Sidebar
+widgets:
+  - search
+  - recent_posts
+  - archive
+
+# Contact
+contact:
+  url: https://twitter.com/yudete
+  icon: twitter # font-awesome icon. e.x) fa-github
+
+# Google tag manager
+google_analytics: GTM-XXXXXX
