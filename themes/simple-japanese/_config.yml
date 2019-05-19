@@ -16,3 +16,5 @@ widgets:
 contact:
   url: https://twitter.com/yudete
   icon: twitter # font-awesome icon. e.x) fa-github
+
+  disqus_shortname: yudelog
