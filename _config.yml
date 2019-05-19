@@ -39,7 +39,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -80,3 +80,22 @@ deploy:
   type:
 
 disqus_shortname: yudelog
+
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+
+prism_plus:
+  enable: true
+  vendors:
+    base_url: https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/
+    prism:
+      - prism.min.js
+      - plugins/line-numbers/prism-line-numbers.min.js
+      - components/prism-bash.min.js
+      - components/prism-json.min.js
+      - components/prism-php.min.js
+      - components/prism-python.min.js
+    prism_css:
+      - themes/prism-twilight.min.css
+      - plugins/line-numbers/prism-line-numbers.min.css
