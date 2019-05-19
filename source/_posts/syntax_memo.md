@@ -16,12 +16,14 @@ __プレビュー:__ <kbd>Shift</kbd>
 * 引用  
 `> ああああ`  
 __プレビュー:__  
-`> ああああ`
+> ああああ
 
 ## Hexo プラグインによるもの
 * hexo-tag-twitter  
-`{% twitter ツイートURL %}`  
+`｛％ twitter ツイートURL ％｝`  
 {% twitter https://twitter.com/jack/status/20 %}
 * hexo-tag-link-preview  
-`{% linkPreview ページURL _blank nofollow %}`  
+`｛％ linkPreview ページURL _blank nofollow ％｝`  
 {% linkPreview http://www.takamagahara.com/printin/ _blank nofollow %}
+
+※ `｛％` は半角に変換.
