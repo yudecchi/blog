@@ -16,8 +16,3 @@ widgets:
 contact:
   url: https://twitter.com/yudete
   icon: twitter # font-awesome icon. e.x) fa-github
-
-# Google tag manager
-google_analytics: GTM-XXXXXX
-simple_japanese:
-  custom_assets:
