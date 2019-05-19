@@ -75,7 +75,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: simple-japanese
 plugins:
-- hexo-generator-robotstxt
 - hexo-generator-sitemap
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,7 +82,3 @@ deploy:
   type:
 
 disqus_shortname: yudelog
-
-robotstxt:
-  useragent: "*"
-  sitemap: /sitemap.xml
