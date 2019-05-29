@@ -23,7 +23,7 @@ author: yude
 * 比較的良質な姿勢
 * 学校内のコミュニティ 楽しく
 * 筋力 そして 握力←これはすごい❗❕❗
-* 後輩への対応力 主に [@dream-needle](https://github.com/dream-needle)
+* 後輩への対応力 主に [@dream-needle](https://dneedle.tk)
 * 弓道の知識（←これは将来役立ちませんが…）
 * 袴が着られるようになった！
 
