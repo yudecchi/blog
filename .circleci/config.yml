@@ -14,9 +14,8 @@ jobs:
       - checkout
       - run: npm install
       - run: npm install --save-dev firebase-tools
-      - run: npm install --save-dev hexo-cli
-      - run: hexo clean
-      - run: hexo generate
+      - run: node_modules/.bin/hexo clean
+      - run: node_modules/.bin/hexo generate
       - run:
           name: 'Deploy to Hosting'
           command: node_modules/.bin/firebase deploy --only hosting --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
