@@ -1,0 +1,22 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+        environment:
+          TZ: Asia/Tokyo
+    working_directory: /tmp/blog
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm install --save-dev firebase-tools
+      - run: npm install --save-dev hexo-cli
+      - run: hexo clean
+      - run: hexo generate
+      - run:
+          name: 'Deploy to Hosting'
+          command: node_modules/.bin/firebase deploy --only hosting --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
