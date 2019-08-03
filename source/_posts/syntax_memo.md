@@ -8,7 +8,7 @@ author: yude
 ---
 # Hexo 記法メモ
 **※ 自分用メモ**
-
+<!--more-->
 ## Markdown / HTML
 * キーボード `kbd`  
 `<kbd>Shift</kbd>`  

@@ -11,7 +11,7 @@ author: yude
 
 習近平です。
 ![習近平](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Xi_Jinping_2016.jpg/240px-Xi_Jinping_2016.jpg "習近Pay")    
-
+<!--more-->
 間違えました。金正男です。  
 
 2019/5/27 をもって部活を引退しました。
