@@ -3,7 +3,7 @@ title:
   category: カテゴリ
   tag: タグ
 
-author: Author
+author: 作者
 
 menu:
   home: ホーム
@@ -20,18 +20,18 @@ sidebar:
 post:
   sticky: 固定
   posted: 投稿日
-  modified: Updated at
-  in: In
+  modified: 更新日
+  in: カテゴリー
   read_more: 続きを読む
   untitled: 無題
   toc_empty: 見出しがありません
-  visitors: Visitors
-  wordcount: Words count in article
-  min2read: Reading time
-  totalcount: Site words total count
+  visitors: 閲覧者
+  wordcount: 文字数
+  min2read: 読了時間
+  totalcount: 合計文字数
   copyright:
-    author: Post author
-    link: Post link
+    author: 作者
+    link: リンク
     license_title: Copyright Notice
     license_content: 'All articles in this blog are licensed under
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
@@ -82,7 +82,7 @@ symbol:
   colon: ':'
 
 reward:
-  donate: Donate
+  donate: 寄付
   wechatpay: WeChat Pay
   alipay: Alipay
   bitcoin: Bitcoin
