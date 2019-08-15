@@ -15,11 +15,13 @@ author: yude
 <!--more-->
 
 ## スクリーンショットを撮る
-`<kbd>Printscreen</kbd>` 単押しで画面全体
-`<kbd>Shift</kbd>` + `<kbd>Printscreen</kbd>` で特定領域
+<kbd>Printscreen</kbd> 単押しで画面全体
+<kbd>Shift</kbd> + <kbd>Printscreen</kbd> で特定領域
 
 ## Unity ローグラフィックスモード
-`gsettings set com.canonical.Unity lowgfx true`  
+```
+gsettings set com.canonical.Unity lowgfx true
+```
 なぜかこれ実行するとUnity デスクトップが落ちるので、なんとかして再起動してください。
 
 ## GTKテーマ「Paper」
@@ -31,7 +33,9 @@ sudo apt intall paper-icon-theme paper-gtk-theme
 ```
 
 2. Unity Tweak Tool からテーマを適用する
-`sudo apt install unity-tweak-tool`
+```
+sudo apt install unity-tweak-tool
+```
 ![メニューの「テーマ」をクリックし、このように](https://i.imgur.com/yyDbsRL.png)
 
 3. Done
@@ -87,7 +91,7 @@ sudo apt update && sudo apt install midori
 
 ## その他 自分が必要なパッケージ
 * [Simplenote](https://github.com/Automattic/simplenote-electron/releases)
-* [VLC media player]
+* VLC media player
 `sudo apt install vlc`
 * htop
 `sudo apt install htop`
@@ -98,10 +102,10 @@ sudo apt update && sudo apt install midori
 
 
 ## 全体を通したメモ
-* snap 版パッケージは日本語環境において文字化けする場合が多く、なるべく deb 版パッケージを使用するべきである
+* snap 版パッケージ は日本語環境において文字化けする場合が多く、なるべく deb 版パッケージ を使用するべきである
 * `sudo dpkg -i hoge.deb` で依存関係のエラーが出た場合
 `sudo apt --fix-broken install` で解決できる場合がある
 # 引用元
-* [Paper - Ubuntu 16.04のデスクトップをマテリアルデザインに変更するテーマとアイコン | Ubuntuアプリのいいところ](https://ubuntuapps.net/blog-entry-846.html)
+* { % linkPreview https://ubuntuapps.net/blog-entry-846.html _blank nofollow %}
 * [おれ](https://twitter.com/yudete)
-* [Ubuntu, インジケーターアプレットの日付と時刻のフォーマットをカスタマイズする : Serendip – Webデザイン・プログラミング](https://www.serendip.ws/archives/6100)
+* { % linkPreview https://www.serendip.ws/archives/6100 _blank nofollow %}
