@@ -31,13 +31,11 @@ sudo add-apt-repository ppa:snwh/pulp
 sudo apt update
 sudo apt intall paper-icon-theme paper-gtk-theme
 ```
-
 2. Unity Tweak Tool からテーマを適用する
 ```
 sudo apt install unity-tweak-tool
 ```
 ![メニューの「テーマ」をクリックし、このように](https://i.imgur.com/yyDbsRL.png)
-
 3. Done
 ![Paper の見た目](https://i.imgur.com/RritBT0.png)
 
@@ -57,10 +55,8 @@ gsettings set com.canonical.indicator.datetime custom-time-format "'%Y/%-m/%-d (
 ## GUIでやる場合
 1. dconf エディター が必要です。インストールしてください。
 `sudo apt install dconf-editor`
-
 2. dconf エディターを開き、何階層か潜ります。
 パス: `/com/canonical/indicator/datetime/custom-time-format`
-
 3. 「Use default value」を無効化し、値を変更します。
 ![このように](https://i.imgur.com/iZzAfgm.png)
 
@@ -76,7 +72,7 @@ gsettings set com.canonical.indicator.datetime custom-time-format "'%Y/%-m/%-d (
 * [Remarkable: Geany のMarkdownプレビューが使えないので 代用](https://remarkableapp.github.io/linux/download.html)
 
 ## いい感じのブラウザー
-* [FlashPeak Slimjet](https://www.slimjet.com/jp/)
+* [FlshPeak Slimjet](https://www.slimjet.com/jp/)
 	* デザインが古いからアップデート終わってるのかと思ったらまだ続いていた
 	* Windows/Mac で言う [Brave Browser](https://brave.com/ja/) のようなもの (Brave は[一応Linuxにも対応している](https://brave.com/download/)が、なんとなく重い)
 * [Midori](https://www.midori-browser.org/download/ubuntu/)
@@ -100,12 +96,17 @@ sudo apt update && sudo apt install midori
 * Krita
 `sudo apt intall krita`
 
-
 ## 全体を通したメモ
 * snap 版パッケージ は日本語環境において文字化けする場合が多く、なるべく deb 版パッケージ を使用するべきである
 * `sudo dpkg -i hoge.deb` で依存関係のエラーが出た場合
 `sudo apt --fix-broken install` で解決できる場合がある
+	* そもそも依存関係のエラーを出したくない場合
+	`gdebi` を使用すれば良い。
+```
+sudo apt install gdebi
+sudo gdebi fuga.deb
+```
 # 引用元
-* { % linkPreview https://ubuntuapps.net/blog-entry-846.html _blank nofollow %}
+* {% linkPreview https://ubuntuapps.net/blog-entry-846.html _blank nofollow %}
 * [おれ](https://twitter.com/yudete)
-* { % linkPreview https://www.serendip.ws/archives/6100 _blank nofollow %}
+* {% linkPreview https://www.serendip.ws/archives/6100 _blank nofollow %}
