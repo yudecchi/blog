@@ -23,7 +23,7 @@ author: yude
 ![GNOME Shell Integration](https://i.imgur.com/M2FtlA9.png)
 
 ## GNOMEのパネルの時計表示フォーマットを変更する
-1. **Firefoxで** [このページ](https://extensions.gnome.org/extension/1173/datetime-format/) を開き、
+1. ブラウザで [このページ](https://extensions.gnome.org/extension/1173/datetime-format/) を開き、
 ![ON](https://i.imgur.com/3QKcR6C.png)
 これをONに切り替えたあと、[インストールする] をクリックする。
 ![インストールする をクリックする](https://i.imgur.com/HrTbgd2.png)
@@ -120,7 +120,7 @@ gsettings set com.canonical.indicator.datetime custom-time-format "'%Y/%-m/%-d (
 * [Remarkable: Geany のMarkdownプレビューが使えないので 代用](https://remarkableapp.github.io/linux/download.html)
 
 ## いい感じのブラウザー
-* [FlshPeak Slimjet](https://www.slimjet.com/jp/)
+* [FlashPeak Slimjet](https://www.slimjet.com/jp/)
 	* デザインが古いからアップデート終わってるのかと思ったらまだ続いていた
 	* Windows/Mac で言う [Brave Browser](https://brave.com/ja/) のようなもの (Brave は[一応Linuxにも対応している](https://brave.com/download/)が、なんとなく重い)
 * [Midori](https://www.midori-browser.org/download/ubuntu/)
