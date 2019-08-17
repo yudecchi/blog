@@ -88,5 +88,6 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
+  <script src="https://kit.fontawesome.com/a4e6fa9fb0.js"></script>
 </body>
 </html>
