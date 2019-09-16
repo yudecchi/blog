@@ -21,6 +21,7 @@
     "hexo-tag-amazon": "1.0.1",
     "hexo-tag-twitter": "1.0.1",
     "hexo-tag-link-preview": "1.2.1",
-    "hexo-clean-css": "0.0.3"
+    "hexo-clean-css": "0.0.3",
+    "hexo-lazysizes": "1.0.2"
   }
 }

@@ -65,5 +65,6 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.1/lazysizes.min.js" integrity="sha256-6zKmNZVeImc0d1Y55vm4So/0W5mbwWiPS4zJt3F4t2A=" crossorigin="anonymous"></script>
 </body>
 </html>
