@@ -67,11 +67,11 @@
   font-weight: 400;
   src: url('assets/fonts/noto-sans-jp-v24-japanese-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'),
-       url('assets/fonts/noto-sans-jp-v24-japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('assets/fonts/noto-sans-jp-v24-japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/fonts/noto-sans-jp-v24-japanese-regular.woff') format('woff'), /* Modern Browsers */
-       url('assets/fonts/noto-sans-jp-v24-japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('assets/fonts/noto-sans-jp-v24-japanese-regular.svg#NotoSansJP') format('svg'); /* Legacy iOS */
+       url('https://yude.moe/assets/fonts/noto-sans-jp-v24-japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://yude.moe/assets/fonts/noto-sans-jp-v24-japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://yude.moe/assets/fonts/noto-sans-jp-v24-japanese-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://yude.moe/assets/fonts/noto-sans-jp-v24-japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://yude.moe/assets/fonts/noto-sans-jp-v24-japanese-regular.svg#NotoSansJP') format('svg'); /* Legacy iOS */
 	   font-display: swap;
 }
 @font-face {
@@ -80,11 +80,11 @@
   font-weight: 400;
   src: url('../fonts/roboto-mono-v7-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Roboto Mono'), local('RobotoMono-Regular'),
-       url('assets/fonts/roboto-mono-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('assets/fonts/roboto-mono-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/fonts/roboto-mono-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('assets/fonts/roboto-mono-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('assets/fonts/roboto-mono-v7-latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+       url('https://yude.moe/assets/fonts/roboto-mono-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://yude.moe/assets/fonts/roboto-mono-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://yude.moe/assets/fonts/roboto-mono-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://yude.moe/assets/fonts/roboto-mono-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://yude.moe/assets/fonts/roboto-mono-v7-latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
 	   font-display: swap;
 }
 @font-face {
