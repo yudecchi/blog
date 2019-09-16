@@ -816,7 +816,7 @@
 .fa-tachometer:before {
   content: "\f0e4";
 }
-.fa-comment-o:before {
+.fa-comment:before {
   content: "\f0e5";
 }
 .fa-comments-o:before {
@@ -1037,7 +1037,7 @@
 .fa-shield:before {
   content: "\f132";
 }
-.fa-calendar-o:before {
+.fa-calendar:before {
   content: "\f133";
 }
 .fa-fire-extinguisher:before {

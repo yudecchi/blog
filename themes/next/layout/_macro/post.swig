@@ -64,7 +64,7 @@
           <span class="post-time">
             {% if theme.post_meta.created_at %}
               <span class="post-meta-item-icon">
-                <i class="fas fa-calendar-o"></i>
+                <i class="fas fa-calendar"></i>
               </span>
               {% if theme.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __('post.posted') }}</span>
@@ -97,7 +97,7 @@
               <span class="post-meta-divider">|</span>
             {% endif %}
               <span class="post-meta-item-icon">
-                <i class="fas fa-folder-o"></i>
+                <i class="fas fa-folder"></i>
               </span>
               {% if theme.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __('post.in') }}</span>
@@ -122,7 +122,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fas fa-comment-o"></i>
+                  <i class="fas fa-comment"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.path }}" itemprop="commentCount"></span>
@@ -132,17 +132,17 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fas fa-comment-o"></i>
+                  <i class="fas fa-comment"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count fb-comments-count" data-href="{{ post.permalink }}" itemprop="commentCount">0</span> comments
+                  <span class="post-comments-count fb-comments-count" data-href="{{ post.permalink }}" itemprop="commentCount">0</span> コメント
                 </a>
               </span>
             {% elseif theme.disqus.enable and theme.disqus.count %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fas fa-comment-o"></i>
+                  <i class="fas fa-comment"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
@@ -154,7 +154,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fas fa-comment-o"></i>
+                  <i class="fas fa-comment"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count hc-comment-count" data-xid="{{ post.path }}" itemprop="commentsCount"></span>
@@ -165,7 +165,7 @@
               <span class="post-comments-count">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
-                <i class="fas fa-comment-o"></i>
+                <i class="fas fa-comment"></i>
               </span>
               {% if is_post() %}
                 <a href="{{ url_for(post.path) }}#SOHUCS" itemprop="discussionUrl">
@@ -180,7 +180,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fas fa-comment-o"></i>
+                  <i class="fas fa-comment"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count gitment-comments-count" data-xid="{{ url_for(post.path) }}" itemprop="commentsCount"></span>
@@ -190,7 +190,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fas fa-comment-o"></i>
+                  <i class="fas fa-comment"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count valine-comment-count" data-xid="{{ url_for(post.path) }}" itemprop="commentCount"></span>
