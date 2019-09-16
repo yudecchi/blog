@@ -20,7 +20,7 @@ function postButton(args) {
   var result = ['<a class="btn" href="' + url + '"'];
   title.length > 0 && result.push(' title="' + title + '"');
   result.push('>');
-  icon.length > 0 && result.push('<i class="fa fa-' + icon + '"></i>');
+  icon.length > 0 && result.push('<i class="fas fa-' + icon + '"></i>');
   text.length > 0 && result.push(text);
   result.push('</a>');
 

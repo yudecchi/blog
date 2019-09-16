@@ -17,7 +17,7 @@ var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 function extURL(args, content) {
   var exturl = 'exturl';
   var url = '';
-  var text = ['<i class="fa fa-external-link"></i>'];
+  var text = ['<i class="fas fa-external-link"></i>'];
   var title = '';
   var item = '';
   var i = 0;

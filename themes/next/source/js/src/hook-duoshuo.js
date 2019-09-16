@@ -63,11 +63,11 @@ function getAgentInfo(string) {
 
   return separator +
     '<span class="duoshuo-ua-platform duoshuo-ua-platform-' + osName.toLowerCase() + '">' +
-       '<i class="fa fa-' + osIcon + '"></i>' +
+       '<i class="fas fa-' + osIcon + '"></i>' +
        osName + ' ' + osVersion +
     '</span>' + separator +
     '<span class="duoshuo-ua-browser duoshuo-ua-browser-' + browserName.toLowerCase() + '">' +
-      '<i class="fa fa-' + browserIcon + '"></i>' +
+      '<i class="fas fa-' + browserIcon + '"></i>' +
       browserName + ' ' + browserVersion +
     '</span>';
 

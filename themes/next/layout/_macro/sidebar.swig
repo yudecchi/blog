@@ -86,7 +86,7 @@
           {% if theme.rss %}
             <div class="feed-link motion-element">
               <a href="{{ url_for(theme.rss) }}" rel="alternate">
-                <i class="fa fa-rss"></i>
+                <i class="fas fa-rss"></i>
                 RSS
               </a>
             </div>
@@ -98,7 +98,7 @@
                   <span class="links-of-author-item">
                     <a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}">
                       {% if theme.social_icons.enable %}
-                        <i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>{#
+                        <i class="fas fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>{#
                     #}{% endif %}{#
                       #}{% if not theme.social_icons.icons_only %}{#
                         #}{{ name }}{#
@@ -122,7 +122,7 @@
           {% if theme.links %}
             <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
               <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-{{ theme.links_icon | default('globe') | lower }}"></i>
+                <i class="fas fa-fw fa-{{ theme.links_icon | default('globe') | lower }}"></i>
                 {{ theme.links_title }}
               </div>
               <ul class="links-of-blogroll-list">
@@ -163,7 +163,7 @@
 
       {% if theme.sidebar.b2t %}
         <div class="back-to-top">
-          <i class="fa fa-arrow-up"></i>
+          <i class="fas fa-arrow-up"></i>
           {% if theme.sidebar.scrollpercent %}
             <span id="scrollpercent"><span>0</span>%</span>
           {% endif %}
