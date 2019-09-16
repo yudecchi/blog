@@ -86,5 +86,3 @@ prism_plus:
     prism_css:
       - themes/prism-twilight.min.css
       - plugins/line-numbers/prism-line-numbers.min.css
-lazysizes:
-  enable: true
