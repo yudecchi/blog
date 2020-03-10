@@ -24,6 +24,6 @@ __プレビュー:__
 {% twitter https://twitter.com/jack/status/20 %}
 * hexo-tag-link-preview  
 `｛％ linkPreview ページURL _blank nofollow ％｝`  
-{% linkPreview http://www.takamagahara.com/printin/ _blank nofollow %}
+{% linkPreview https://www.ichikara.co.jp/ _blank nofollow %}
 
 ※ `｛％` は半角に変換.

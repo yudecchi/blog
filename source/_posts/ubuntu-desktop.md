@@ -10,10 +10,8 @@ author: yude
 ---
 
 # Ubuntu デスクトップ環境メモ
-都度調べるのが面倒なのでまとめました。
-
+度々調べるのが面倒なのでまとめました。
 <!--more-->
-
 ## スクリーンショットを撮る
 <kbd>Printscreen</kbd> 単押しで画面全体
 <kbd>Shift</kbd> + <kbd>Printscreen</kbd> で特定領域
