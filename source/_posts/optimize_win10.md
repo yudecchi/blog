@@ -22,8 +22,9 @@ author: yude
 * `Windows Media Player Network Sharing Service` - WMPに付属している共有機能を使う人は有効のままで。
 * `Xbox Accessory Management Service`, `Xbox Live Auth Manager`, `Xbox Live セーブ データ`, `Xbox Live ネットワーキング サービス` - XboxやMicrosoft Store にあるゲームを遊ぶ人は有効のままで。
 * `市販デモ サービス（RetailDemo）` - 普通は有効ではないが一応。普段使いでデモモードにするなんで一部の変態なんで...
-* `データ使用状況（DusmSvc）` - 「設定」アプリ内でデータ使用量が確認できるようになりますが、デスクトップPCでそんなものは必要ないので...
+* `データ使用状況（DusmSvc）` - `設定`アプリ内でデータ使用量が確認できるようになりますが、デスクトップPCでそんなものは必要ないので...
 * `Superfetch` - ストレージを最適化してくれますが、経験上かえって遅くなる気がします。
+→ アップデートで、サービスの名前が `SysMain` に変わりました。
 
 # 不要な機能を無効化する
 ## バックグラウンド アプリの無効化
