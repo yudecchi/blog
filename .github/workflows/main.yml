@@ -1,21 +1,19 @@
-name: Deploy
+name: Hexo Build and Deploy
 
-on:
-  push:
-    branches: master
+on: [push]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-    - name: Deploy to GitHub Pages
-      run: |
-        npm install hexo-cli@latest --no-cache --no-optional
-        hexo deploy -g
+      - uses: actions/checkout@v1
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+      - uses: yrpang/github-actions-hexo@master
+        with:
+          deploykey: ${{secrets.DEPLOY_KEY}}
+          username: yudete
+          email: yu@yude.moe
