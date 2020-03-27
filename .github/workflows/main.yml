@@ -17,5 +17,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Deploy to GitHub Pages
       run: |
-        npm install hexo
+        npm install hexo-cli@latest --no-cache --no-optional
         hexo deploy -g
