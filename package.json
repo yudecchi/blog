@@ -23,7 +23,8 @@
     "hexo-tag-twitter": "1.0.1",
     "hexo-generator-searchdb": "1.2.0",
     "hexo-generator-feed": "1.2.2",
-    "hexo-next-nightmode": "git+https://github.com/1v9/hexo-next-nightmode.git"
+    "hexo-next-nightmode": "git+https://github.com/1v9/hexo-next-nightmode.git",
+    "hexo-deployer-git": "2.1.0"
   },
   "scripts": {
     "dev": "hexo server -p $PORT",
