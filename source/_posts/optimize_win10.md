@@ -11,7 +11,7 @@ author: yude
 <!--more-->
 
 # 不要なサービス - 「サービス名」 - 「説明」
-* `ActiveX Installer (AxInstSV)` - 使ってるWebサイトあるの？
+* `ActiveX Installer (AxInstSV)` - 使ってるWebサイトあるんですかね？
 * `FAX` - 言わずもがな
 * `Geolocation Service` - マップ使う人は有効のままで
 * `PNRP Machine Name Publication Service` - P2P ネットワークにおいて、コンピュータ名を提供します。必要か？
@@ -68,4 +68,4 @@ Spybot - Search & Destoryの制作会社であるSafer-Networkingが無償で提
 [Spybot Anti-Beacon - Spybot Anti-Malware and Antivirus : Spybot Anti-Malware and Antivirus](https://www.safer-networking.org/products/spybot-anti-beacon/)  
 一瞬シェアウェアかと思わせるページの構造ですが、一番下にダウンロードリンクがあります。
 ![紛らわしいんじゃ](https://i.vgy.me/h3ENNU.png "紛らわしいんじゃ")  
-途中まで書いたけど これ制限あるくね？草
+途中まで書いたけど これ制限あるくね？草  
