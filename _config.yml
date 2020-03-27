@@ -89,5 +89,5 @@ prism_plus:
 
 deploy:
   type: git
-  repo: yudete@github.com:yudemoe/blog.git
+  repo: git@github.com:yudemoe/blog.git
   branch: master
