@@ -55,5 +55,21 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 ![All changes were applied successfully](https://i.imgur.com/RKUAu6J.png)
 
 ## 2. Visual Studio Code のインストール
-まず、[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download) からダウンロードします。  
+まず、[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download) からVisual Studio Codeをダウンロードします。  
 サイトは英語ですが、VSCode 自体は日本語化できるので安心してください。
+![ココ](https://i.imgur.com/0X0vrxp.png)  
+ここですね。  
+
+適当にインストールしていきましょう。
+![installpic_1](https://i.imgur.com/nXtyTRf.png)  
+下の画面で、  
+* エクスプローラーのファイル コンテキスト メニューに [Code で開く] アクションを追加する
+* エクスプローラーのディレクトリ コンテキスト メニューに [Code で開く] アクションを追加する  
+
+にチェックを入れておくと便利です。
+![installpic_2](https://i.imgur.com/Z47mIJE.png)  
+
+
+メモ
+VSCode 日本語化
+MinGW のパスを通す
