@@ -1,8 +1,9 @@
 ---
 title: コマンド プロンプトでTab補完が効くようにする
-date: '2019/05/19 10:10:21'
+date: '2020/08/15 2:04:00'
 categories:
-  - Android
+  - コマンドプロンプト
+  - Windows
 author: yude
 ---
 
