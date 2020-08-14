@@ -20,6 +20,7 @@ author: yude
 | ---- | ---- | 
 |  CompletionChar  |  4 または 6 または 9  | 
 |  PathCompletionChar  |  4 または 6 または 9  |
+
 補足: それぞれ 4: Ctrl + D、6: Ctrl + F、9: Tab で入力補完となる。
 
 いじょう
