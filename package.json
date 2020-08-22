@@ -27,7 +27,7 @@
     "hexo-deployer-git": "2.1.0"
   },
   "scripts": {
-    "dev": "hexo server -p $PORT",
+    "dev": "hexo server -p 50060",
     "build": "hexo generate"
   }
 }
