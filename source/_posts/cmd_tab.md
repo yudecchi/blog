@@ -12,6 +12,7 @@ author: yude
 
 # 解決法
 ## レジストリをいじる
+<!--more-->
 パス:  
 全ユーザー: `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor`  
 ユーザー毎: `\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor`  
