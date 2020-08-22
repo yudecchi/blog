@@ -7,6 +7,7 @@ author: yude
 ---
 # 1. プライバシー設定
 設定 アプリを開き、プライバシー、マイク と進み、必要な項目が ON になっているか確認する。  
+<!--more-->
 ![このデバイスのマイクへのアクセスはオンになっています](https://i.imgur.com/jcwixwM.png)  
 ![Privacy App](https://i.imgur.com/GLJl0c2.png)  
 
