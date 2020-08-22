@@ -7,9 +7,6 @@ categories:
 author: yude
 ---
 
-# 参考
-なし
-
 # 解決法
 * gh-pages ブランチ (または公開したいブランチ) を submodule として追加する。  
 
