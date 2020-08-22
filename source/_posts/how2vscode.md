@@ -9,17 +9,16 @@ categories:
 author: yude
 ---
 ** この記事は初学者向けで、かつ Eclipse を使うよう指示された広島市立大学の学生を主な対象としています。 **  
-# Eclipse 君さぁ...
+# #Eclipse反対
 こんにちは yude です。 皆さん、どのような方法でC言語を書いていますか？  
 ![Pleiades Eclipse](https://i.imgur.com/0tSLtob.png)  
 こういうやつだと思います 講義通りにやると  
 いや正直、こんなゴチャゴチャしたもんはよく分からんし、そもそも初学者向けじゃないんですよね [僕も環境構築できなかったし...](https://twitter.com/DestroyTeXLive/status/1277834088410275841) てかプロⅠの内容でIDE使うメリット、何...?  
 (いや、GUIだけでビルドできるとかそういうことはあるかもしれませんが)
 ## じゃあ
-別のやつ使いません？例えば**Visual Studio Code**とか...
+別のやつ使いません？ **Visual Studio Code** とか...
 
-# Visual Studio Code って何やねん
-はい そうですね 説明していきます  
+# Visual Studio Code 何？
 Visual Studio Code、略して "VSCode" は、""天下のMicrosoft"" が作ったコードエディターです。
 ## Eclipse とどう違うの？
 Eclipse には、最初からプログラミング言語を操るツールが付属しています。一般的にこれらのソフトウェアを「統合開発環境 (IDE)」と言います。  
