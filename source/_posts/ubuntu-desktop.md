@@ -1,5 +1,5 @@
 ---
-title: Ubuntu デスクトップ環境メモ
+title: Ubuntu デスクトップ環境構築メモ
 date: '2019/08/16 13:10:55'
 categories:
   - Linux
@@ -9,7 +9,6 @@ categories:
 author: yude
 ---
 
-# Ubuntu デスクトップ環境メモ
 度々調べるのが面倒なのでまとめました。
 <!--more-->
 ## スクリーンショットを撮る
