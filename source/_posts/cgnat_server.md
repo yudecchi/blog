@@ -21,7 +21,7 @@ author: yude
 * Cloudflare (無料アカウントでOK)
 * nginx (または他のWebサーバソフトウェア)
 * ufw (ファイアウォール)
-* Teredo (IPv6 on IPv4 トンネリング) ← 肝
+* Teredo (IPv6 to IPv4 トンネリング) ← 肝
 * 独自ドメイン
 
 # 検証環境
@@ -78,5 +78,3 @@ author: yude
 * IPv4 だけでしか接続できない人がアクセスしても閲覧できるようにするため。
 ## 何か間違いを見つけたら？
 GitHub の [Issues](https://github.com/yudete/blog/issues) や [Pull requests](https://github.com/yudete/blog/pulls) よりお願いします。
-
-あいうえお
