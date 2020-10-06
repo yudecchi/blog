@@ -65,7 +65,7 @@ author: yude
 
         server_name example.com;
         root /var/www/html;
-        index index.php;
+        index index.html;
     }
     ```
     **IPv6 の** 80 番ポートを Listen していることを確認してください。  
