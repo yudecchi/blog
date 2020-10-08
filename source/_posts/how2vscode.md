@@ -10,8 +10,6 @@ author: yude
 ---
 **この記事は初学者向けで、かつ Eclipse を使うよう推奨された広島市立大学の学生を主な対象としています。**  
 
-## じゃあ
-別のやつ使いません？ **Visual Studio Code** とか...
 <!--more-->
 # Visual Studio Code 何？
 Visual Studio Code、略して "VSCode" は、""天下のMicrosoft"" が作ったコードエディターです。
