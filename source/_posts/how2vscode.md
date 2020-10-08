@@ -25,6 +25,7 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 1. Visual Studio Code のインストール  
 1. Visual Studio Code の設定  
 1. 簡単にコンパイルできるようにする  
+1. コンパイルした `exe` ファイルを実行する
 
 ## 1. MinGW のインストール
 まず、[/68260/mingw-get-setup.exeをダウンロード - MinGW - Minimalist GNU for Windows - OSDN ](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) を開いて、「MinGW-Get」というソフトウェアをダウンロードします。
@@ -115,7 +116,7 @@ Visual Studio Code を日本語化します。
     ![](https://i.imgur.com/kK7LrYd.png)  
     すると、コンパイルが始まり、少し待つと同じディレクトリに `exe` ファイルが生成されるはずです。  
 
-## コンパイルした `exe` ファイルを実行する
+## 5. コンパイルした `exe` ファイルを実行する
 C言語のソースファイルを開いた状態で、`Ctrl` + `Shift` + `@` を押すと、下に「ターミナル」が現れるはずです。  
 ![](https://i.imgur.com/CbqXjBg.png)  
 ここで、`.\(ファイル名)` と入力して Enter を押すと、実行されます。  
@@ -124,5 +125,8 @@ C言語のソースファイルを開いた状態で、`Ctrl` + `Shift` + `@` �
 
 以上で Visual Studio Code を C 言語の開発に使う方法の説明を終わります。  
 不明な点があった場合、Twitter: [@yudete](https://twitter.com/yudete) (大学向け: [@DestroyTeXLive](https://twitter.com/DestroyTeXLive)) までリプライや DM を送ってもらえれば、可能な範囲でお答えします。  
+
+### 文字化けするんだけど...
+ターミナルで `chcp 65001` と入力した後、Enter を押してください。
 
 では！
