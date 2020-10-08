@@ -5,7 +5,7 @@ categories:
   - h5ai
   - nginx
   - 自宅サーバー
-  - php
+  - PHP
 author: yude
 ---
 nginx のインデックスページ、こんな感じだと思うんですけど  
