@@ -16,7 +16,8 @@ nginx のインデックスページ、こんな感じだと思うんですけ�
 <!--more-->
 ## How to setup THIS
 1. h5ai をダウンロード  
-[ここ](https://release.larsjung.de/h5ai/) から最新バージョンの h5ai が含まれた zip ファイルをダウンロードして、サーバーに設置してください。
+[ここ](https://larsjung.de/h5ai/) から最新バージョンの h5ai が含まれた zip ファイルをダウンロードして、サーバーに設置してください。  
+![CLICK THIS](https://i.imgur.com/LKqZWO8.png)
 1. nginx の設定をする  
 私はこのようにしておりますので、適宜変更してください。  
 ```
