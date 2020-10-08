@@ -22,7 +22,9 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 # 導入
 ## 目次
 1. MinGW のインストール  
-2. Visual Studio Code のインストール  
+1. Visual Studio Code のインストール  
+1. Visual Studio Code の設定  
+1. 簡単にコンパイルできるようにする  
 
 ## 1. MinGW のインストール
 まず、[/68260/mingw-get-setup.exeをダウンロード - MinGW - Minimalist GNU for Windows - OSDN ](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) を開いて、「MinGW-Get」というソフトウェアをダウンロードします。
@@ -61,7 +63,7 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 にチェックを入れておくと便利です。
 ![installpic_2](https://i.imgur.com/Z47mIJE.png)  
 
-## Visual Studio Code の設定
+## 3. Visual Studio Code の設定
 Visual Studio Code では、「拡張機能」というものをインストールして自由にカスタマイズすることができます。  
 今回は以下の拡張機能を導入します。  
 * C/C++  
@@ -79,7 +81,7 @@ Visual Studio Code を日本語化します。
 
 以上で拡張機能のインストールができたはずです。
 
-## 簡単にコンパイルできるようにする
+## 4. 簡単にコンパイルできるようにする
 このままの状態では、度々 コマンド プロンプト を呼び出してコマンドを実行する必要があります。面倒なので、ショートカットキーでコンパイルできるようにしてしまいましょう。  
 
 1. 作業フォルダの作成
