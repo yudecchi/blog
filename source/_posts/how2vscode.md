@@ -21,13 +21,13 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 
 # 導入
 ## 目次
-1. MinGW のインストール  
-1. Visual Studio Code のインストール  
-1. Visual Studio Code の設定  
-1. 簡単にコンパイルできるようにする  
-1. コンパイルした `exe` ファイルを実行する
+ステップ 1. MinGW のインストール  
+ステップ 2. Visual Studio Code のインストール  
+ステップ 3. Visual Studio Code の設定  
+ステップ 4. 簡単にコンパイルできるようにする  
+ステップ 5. コンパイルした `exe` ファイルを実行する
 
-## 1. MinGW のインストール
+## ステップ 1. MinGW のインストール
 まず、[/68260/mingw-get-setup.exeをダウンロード - MinGW - Minimalist GNU for Windows - OSDN ](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) を開いて、「MinGW-Get」というソフトウェアをダウンロードします。
 ![a?!](../assets/images/how2vscode/1.png)  
 `Install` をクリックして、インストールを始めます。  
@@ -49,7 +49,7 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 終わると下のような表示になります。これで `MinGW Installation Manager` でやる作業は終わりなので、閉じてしまいましょう。  
 ![All changes were applied successfully](../assets/images/how2vscode/10.png)
 
-## 2. Visual Studio Code のインストール
+## ステップ 2. Visual Studio Code のインストール
 まず、[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download) からVisual Studio Codeをダウンロードします。  
 サイトは英語ですが、VSCode 自体は日本語化できるので安心してください。
 ![ココ](../assets/images/how2vscode/11.png)  
@@ -64,7 +64,7 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 にチェックを入れておくと便利です。
 ![installpic_2](../assets/images/how2vscode/13.png)  
 
-## 3. Visual Studio Code の設定
+## ステップ 3. Visual Studio Code の設定
 Visual Studio Code では、「拡張機能」というものをインストールして自由にカスタマイズすることができます。  
 今回は以下の拡張機能を導入します。  
 * C/C++  
@@ -82,7 +82,7 @@ Visual Studio Code を日本語化します。
 
 以上で拡張機能のインストールができたはずです。
 
-## 4. 簡単にコンパイルできるようにする
+## ステップ 4. 簡単にコンパイルできるようにする
 このままの状態では、度々 コマンド プロンプト を呼び出してコマンドを実行する必要があります。面倒なので、ショートカットキーでコンパイルできるようにしてしまいましょう。  
 
 1. 作業フォルダの作成
@@ -106,25 +106,28 @@ Visual Studio Code を日本語化します。
     `Ctrl` + `S` で保存した後、`Ctrl` + `Shift` + `B` を押します。
     ![](../assets/images/how2vscode/20.png)  
     このような画面が現れるはずなので、画像の歯車をクリックします。  
-    **このとき、選んでいる項目が `C/C++: gcc.exe build active file` となっていることを確認してください。**  
+    **歯車が存在せず、`C/C++: gcc.exe build active file` だけが表示されている場合は以下の手順は不要です。そのまま Enter を押すとビルドができるので、ステップ 5 まで飛ばしてください。**  
+    まず、選んでいる項目が `C/C++: gcc.exe build active file` となっていることを確認してください。  
     すると、以下のようなファイルが生成されるはずです。(細部は異なることがあるかもしれません。)  
     これで完了です。  
     ![](../assets/images/how2vscode/21.png)  
-4. コンパイルしてみる
+4. コンパイルしてみる  
     さて、ようやくコンパイルします。先程作った `(適当に決める).c` に戻って、`Ctrl` + `Shift` + `B` を押します。  
     表示のようにメニューが表示されたことを確認して、`Enter` を押します。  
     ![](../assets/images/how2vscode/22.png)  
     すると、コンパイルが始まり、少し待つと同じディレクトリに `exe` ファイルが生成されるはずです。  
 
-## 5. コンパイルした `exe` ファイルを実行する
-C言語のソースファイルを開いた状態で、`Ctrl` + `Shift` + `@` を押すと、下に「ターミナル」が現れるはずです。  
+## ステップ 5. コンパイルした `exe` ファイルを実行する
+C言語のソースファイルを開いた状態で、`Ctrl` + `Shift` + `@` を押すと、下に「ターミナル」が現れるはずです。**既にターミナルが現れている場合は不要です。**  
 ![](../assets/images/how2vscode/23.png)  
 ここで、`.\(ファイル名)` と入力して Enter を押すと、実行されます。  
 ![](../assets/images/how2vscode/24.png)  
 ファイル名について: ソースコードのファイル名が例えば `test.c` だった場合、入力するのは `.\test.exe` となります。
+### 文字化けを解消する
+ターミナルで `chcp 65001` と入力した後、Enter を押してください。
+
+### プログラムの実行を途中で中止したい
+ターミナルの部分をクリックした後、`Ctrl` + `C` というショートカットキーを入力すると中断できます。
 
 以上で Visual Studio Code を C 言語の開発に使う方法の説明を終わります。  
 不明な点があった場合、Twitter: [@yudete](https://twitter.com/yudete) (大学向け: [@DestroyTeXLive](https://twitter.com/DestroyTeXLive)) までリプライや DM を送ってもらえれば、可能な範囲でお答えします。  
-
-### 文字化けするんだけど...
-ターミナルで `chcp 65001` と入力した後、Enter を押してください。
