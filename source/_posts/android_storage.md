@@ -5,14 +5,11 @@ categories:
   - Android
 author: yude
 ---
-
-これは解決できます。
-<!--more-->
 前提として、**SDカード等の外部ストレージを `adb` コマンド等で内部ストレージ化している必要があります。**  
-そちらの手順は、[こちら](https://sp7pc.com/google/android/24933) を見て頑張ってください。
+そちらの手順は、[](https://sp7pc.com/google/android/24933) を見て頑張ってください。
 
 * 開発者オプション --> 外部ストレージへのアプリ書き込み を有効化します。
-![開発者オプション](https://i.vgy.me/zFMJbg.png "開発者オプション のスクリーンショット")
+![](https://i.vgy.me/zFMJbg.png "開発者オプション のスクリーンショット")
 
 * ✔ できた ❕
-![アプリを移動している](https://i.vgy.me/Vw1Zlm.png "アプリを移動しているスクリーンショット")
+![](https://i.vgy.me/Vw1Zlm.png "アプリを移動しているスクリーンショット")

@@ -9,15 +9,15 @@ categories:
 author: yude
 ---
 nginx のインデックスページ、こんな感じだと思うんですけど  
-![Before](../assets/images/h5ai/1.png)  
+![](../assets/images/h5ai/1.png)  
 これが、このように盛れます  
-![After](../assets/images/h5ai/2.png)  
+![](../assets/images/h5ai/2.png)  
 以下方法  
 <!--more-->
 ## How to setup THIS
 1. h5ai をダウンロード  
-[ここ](https://larsjung.de/h5ai/) から最新バージョンの h5ai が含まれた zip ファイルをダウンロードして、サーバーに設置してください。  
-![CLICK THIS](../assets/images/h5ai/3.png)
+[](https://larsjung.de/h5ai/) から最新バージョンの h5ai が含まれた zip ファイルをダウンロードして、サーバーに設置してください。  
+![](../assets/images/h5ai/3.png)
 1. nginx の設定をする  
 私はこのようにしておりますので、適宜変更してください。  
 ```
@@ -40,7 +40,7 @@ server{
 ```
 上の root に指定するパスには、公開したいファイル群と、`_h5ai` ディレクトリが設置されている必要があります。  
 具体的には `files.yude.moe` の環境において、`ls` コマンドを実行したとき、以下のように表示されます。  
-![result](../assets/images/h5ai/4.png)  
+![](../assets/images/h5ai/4.png)  
 参考にしてください。
 
 以上の設定を行った後、アクセスができるようになるはずです。

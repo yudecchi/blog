@@ -123,11 +123,14 @@ C言語のソースファイルを開いた状態で、`Ctrl` + `Shift` + `@` �
 ここで、`.\(ファイル名)` と入力して Enter を押すと、実行されます。  
 ![](../assets/images/how2vscode/24.png)  
 ファイル名について: ソースコードのファイル名が例えば `test.c` だった場合、入力するのは `.\test.exe` となります。
+
+## 注意点・トラブルシューティング 等
 ### 文字化けを解消する
 ターミナルで `chcp 65001` と入力した後、Enter を押してください。
 
-### プログラムの実行を途中で中止したい
+### プログラムの実行を途中で中止する
 ターミナルの部分をクリックした後、`Ctrl` + `C` というショートカットキーを入力すると中断できます。
 
+# 終わり
 以上で Visual Studio Code を C 言語の開発に使う方法の説明を終わります。  
-不明な点があった場合、Twitter: [@yudete](https://twitter.com/yudete) (大学向け: [@DestroyTeXLive](https://twitter.com/DestroyTeXLive)) までリプライや DM を送ってもらえれば、可能な範囲でお答えします。  
+不明な点があった場合、[Twitter](https://twitter.com/yudete) または Discord (`yude#3205`) までリプライや DM を送ってもらえれば、可能な範囲でお答えします。  
