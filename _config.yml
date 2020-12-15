@@ -32,7 +32,6 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -87,7 +86,28 @@ prism_plus:
       - themes/prism-twilight.min.css
       - plugins/line-numbers/prism-line-numbers.min.css
 
+sitemap:
+    path: sitemap.xml
+
 deploy:
   type: git
   repo: git@github.com:yudemoe/blog.git
   branch: master
+
+# hexo-seo-link-visualizer's option
+seoLinkVisualizer:
+  enable: true
+  cache: cache/seo-link-visualizer.json
+  port: 1234
+  previewHost: localhost:4000/
+  categoryDepthLimits: 1    
+  allowedSourcePath:
+    - _posts/
+    # - _drafts
+  ignoreLink:
+    int:
+    ext:
+      - amazon
+      - amz
+      - flickr
+    toc:

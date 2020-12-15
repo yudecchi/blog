@@ -4,6 +4,8 @@
 
 {% block title %}{{ __('title.archive') }} | {{ title }}{% endblock %}
 
+{% block class %}archive{% endblock %}
+
 {% block content %}
 
   {#####################}
@@ -26,7 +28,7 @@
         {% else %}
           {%- set cheers = 'um' %}
         {%- endif %}
-        <span class="collection-header">{{ _p('counter.archive_posts', site.posts.length) }}</span>
+        <span class="collection-header">{{ __('cheers.' + cheers) }}! {{ _p('counter.archive_posts', site.posts.length) }} {{ __('keep_on') }}</span>
       </div>
 
       {{ post_template.render(page.posts) }}

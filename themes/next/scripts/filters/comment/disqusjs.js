@@ -12,12 +12,10 @@ hexo.extend.filter.register('theme_inject', injects => {
   injects.comment.raw('disqusjs', `
   <div class="comments">
     <div id="disqus_thread">
-      <noscript>Disqus のコメントを見るには、Javascript を有効にしてください。</noscript>
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
     </div>
   </div>
-  `, {}, {
-    cache: true
-  });
+  `, {}, {cache: true});
 
   injects.bodyEnd.file('disqusjs', path.join(hexo.theme_dir, 'layout/_third-party/comments/disqusjs.swig'));
 
