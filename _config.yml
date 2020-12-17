@@ -91,7 +91,7 @@ sitemap:
 
 deploy:
   type: git
-  repo: git@github.com:yudemoe/blog.git
+  repo: git@github.com:yudete/blog.git
   branch: master
 
 # hexo-seo-link-visualizer's option
