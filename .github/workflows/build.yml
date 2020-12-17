@@ -18,5 +18,5 @@ jobs:
       - uses: yrpang/github-actions-hexo@v1.3
         with:
           deploykey: ${{secrets.DEPLOY_KEY}}
-          username: PUBLISHER_USER_NAME
-          email: PUBLISHER_EMAIL_ADDRESS
+          # username: PUBLISHER_USER_NAME
+          # email: PUBLISHER_EMAIL_ADDRESS
