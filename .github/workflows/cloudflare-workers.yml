@@ -31,4 +31,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           # email: ${{ secrets.CF_EMAIL }}
-          workingDirectory: './public'
+          workingDirectory: './'
