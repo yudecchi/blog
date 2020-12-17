@@ -9,6 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: git config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
       - uses: actions/checkout@v1
       - name: Cache node modules
         uses: actions/cache@v1
@@ -18,5 +23,5 @@ jobs:
       - uses: yrpang/github-actions-hexo@v1.3
         with:
           deploykey: ${{secrets.DEPLOY_KEY}}
-          # username: PUBLISHER_USER_NAME
-          # email: PUBLISHER_EMAIL_ADDRESS
+          username: PUBLISHER_USER_NAME
+          email: PUBLISHER_EMAIL_ADDRESS
