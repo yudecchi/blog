@@ -9,3 +9,6 @@ package-lock.json
 coverage/
 .tmp*
 db.json
+/public
+/workers-site
+/dist
