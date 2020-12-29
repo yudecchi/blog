@@ -20,24 +20,24 @@ nginx のインデックスページ、こんな感じだと思うんですけ�
 ![](../assets/images/h5ai/3.png)
 1. nginx の設定をする  
 私はこのようにしておりますので、適宜変更してください。  
-```
-upstream php-fpm {
-  server unix:/run/php/php-fpm.sock;
-}
-
-server{
-  listen 80;
-  server_name your.domain;
-  root /path/to/root/of/your/files;
-  index  /_h5ai/public/index.php;
-  location ~ \.(php)$ {
-    include fastcgi_params;
-    fastcgi_index index.php;
-    fastcgi_param   SCRIPT_FILENAME         $document_root$fastcgi_script_name;
-    fastcgi_pass php-fpm;
+  ```
+  upstream php-fpm {
+    server unix:/run/php/php-fpm.sock;
   }
-}
-```
+  
+  server{
+    listen 80;
+    server_name your.domain;
+    root /path/to/root/of/your/files;
+    index  /_h5ai/public/index.php;
+    location ~ \.(php)$ {
+      include fastcgi_params;
+      fastcgi_index index.php;
+      fastcgi_param   SCRIPT_FILENAME         $document_root$fastcgi_script_name;
+      fastcgi_pass php-fpm;
+    }
+  }
+  ```
 上の root に指定するパスには、公開したいファイル群と、`_h5ai` ディレクトリが設置されている必要があります。  
 具体的には `files.yude.moe` の環境において、`ls` コマンドを実行したとき、以下のように表示されます。  
 ![](../assets/images/h5ai/4.png)  
