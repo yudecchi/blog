@@ -8,19 +8,21 @@ categories:
   - PHP
 author: yude
 ---
+# 機能
 nginx のインデックスページ、こんな感じだと思うんですけど  
 ![](../assets/images/h5ai/1.png)  
 これが、このように盛れます  
 ![](../assets/images/h5ai/2.png)  
 以下方法  
 <!--more-->
-## How to setup THIS
-1. h5ai をダウンロード  
+# 導入
+## h5ai をダウンロード  
 [](https://larsjung.de/h5ai/) から最新バージョンの h5ai が含まれた zip ファイルをダウンロードして、サーバーに設置してください。  
 ![](../assets/images/h5ai/3.png)
-1. nginx の設定をする  
-私はこのようにしておりますので、適宜変更してください。  
-  ```
+
+## nginx の設定をする  
+下記の内容を、適宜変更して使用してください。
+
   upstream php-fpm {
     server unix:/run/php/php-fpm.sock;
   }
@@ -37,7 +39,7 @@ nginx のインデックスページ、こんな感じだと思うんですけ�
       fastcgi_pass php-fpm;
     }
   }
-  ```
+
 上の root に指定するパスには、公開したいファイル群と、`_h5ai` ディレクトリが設置されている必要があります。  
 具体的には `files.yude.moe` の環境において、`ls` コマンドを実行したとき、以下のように表示されます。  
 ![](../assets/images/h5ai/4.png)  
