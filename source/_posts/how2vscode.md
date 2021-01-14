@@ -8,16 +8,15 @@ categories:
   - C
 author: yude
 ---
-**この記事は初学者向けで、かつ Eclipse を使うよう推奨された広島市立大学の学生を主な対象としています。**  
+この記事では、主に Windows での手順を説明します。
 
 <!--more-->
 # Visual Studio Code 何？
-Visual Studio Code、略して "VSCode" は、""天下のMicrosoft"" が作ったコードエディターです。
+Visual Studio Code は、Microsoft が作ったコードエディターです。
 
 ## Eclipse とどう違うの？
 Eclipse には、最初からプログラミング言語を操るツールが付属しています。一般的にこれらのソフトウェアを「統合開発環境 (IDE)」と言います。  
-対してVSCodeは「エディター」です。初期状態ではビルドしたりだとか、間違いを警告する機能が付いていません。  
-まぁ入ってなければ入れればいいだけの話です。やっていきましょう。  
+対して Visual Studio Code は「エディター」です。__初期状態では__ビルドを実行したり、間違いを警告したりする機能が付いていません。この記事では、それらの機能を追加する手順も解説します。  
 
 # 導入
 ## 目次
@@ -46,12 +45,12 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 すると... 確認画面が現れます。`Apply` をクリックするとインストールが始まります。  
 ![Okay to proceed?](../assets/images/how2vscode/8.png)
 ![Applying Scheduled Changes](../assets/images/how2vscode/9.png)
-終わると下のような表示になります。これで `MinGW Installation Manager` でやる作業は終わりなので、閉じてしまいましょう。  
+終わると下のような表示になります。これで `MinGW Installation Manager` でやる作業は終わりなので、閉じてください。  
 ![All changes were applied successfully](../assets/images/how2vscode/10.png)
 
 ## ステップ 2. Visual Studio Code のインストール
 まず、[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download) からVisual Studio Codeをダウンロードします。  
-サイトは英語ですが、VSCode 自体は日本語化できるので安心してください。
+サイトは英語ですが、Visual Studio Code 自体は日本語化できるので安心してください。
 ![ココ](../assets/images/how2vscode/11.png)  
 ここですね。  
 
