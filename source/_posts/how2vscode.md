@@ -1,5 +1,5 @@
 ---
-title: VSCode でC言語を書く
+title: Visual Studio Code を使ってC言語を書く
 date: '2020/10/08 15:47'
 categories:
   - Visual Studio Code
@@ -97,12 +97,12 @@ Visual Studio Code を日本語化します。
 まず、左のパネルを右クリックし、新規ファイルを作成、名前を `(適当に決める).c` とします。  
 ![](../assets/images/how2vscode/19.png)  
 そして、以下のコードをコピー & ペーストしてください。
-    ```c
+    {% codeblock lang:c %}
     #include <stdio.h>
     int main(void){
       printf("Hello world!\n");
     }
-    ```
+    {% endcodeblock %}
     `Ctrl` + `S` で保存した後、`Ctrl` + `Shift` + `B` を押します。
     ![](../assets/images/how2vscode/20.png)  
     このような画面が現れるはずなので、画像の歯車をクリックします。  

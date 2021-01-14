@@ -1,37 +1,25 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site
 title: yude's blog
-subtitle:
+subtitle: null
 description: yude のブログです。 備忘録等を掲載しています。
-keywords: yude, yudelog, ゆで, yudete
+keywords: 'yude, yudelog, ゆで, yudete'
 author: yude
 language: ja
 timezone: Japan
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.yude.moe
+url: 'https://blog.yude.moe'
 root: /
-permalink: :title/
-permalink_defaults:
-
-# Directory
+permalink: ':title/'
+permalink_defaults: null
 source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-  admin/config.yml
-# Writing
-new_post_name: :title.md # File name of new posts
+i18n_dir: ':lang'
+skip_render: admin/config.yml
+new_post_name: ':title.md'
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: false
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -41,40 +29,24 @@ highlight:
   enable: false
   line_number: true
   auto_detect: false
-  tab_replace:
-
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
+  tab_replace: null
 index_generator:
   path: ''
   per_page: 10
-  order_by: -date
-
-# Category & Tag
+  order_by: '-date'
 default_category: uncategorized
-category_map:
-tag_map:
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+category_map: null
+tag_map: null
 date_format: YYYY/MM/DD
-time_format: HH:mm:ss
-
-# Pagination
-## Set per_page to 0 to disable pagination
+time_format: 'HH:mm:ss'
 per_page: 10
 pagination_dir: page
-theme: next
+theme: apollo
 disqus_shortname: yudelog
-
 prism_plus:
   enable: true
   vendors:
-    base_url: https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/
+    base_url: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/'
     prism:
       - prism.min.js
       - plugins/line-numbers/prism-line-numbers.min.js
@@ -85,29 +57,9 @@ prism_plus:
     prism_css:
       - themes/prism-twilight.min.css
       - plugins/line-numbers/prism-line-numbers.min.css
-
 sitemap:
-    path: sitemap.xml
-
+  path: sitemap.xml
 deploy:
   type: git
-  repo: git@github.com:yudete/blog.git
+  repo: 'git@github.com:yudete/blog.git'
   branch: master
-
-# hexo-seo-link-visualizer's option
-seoLinkVisualizer:
-  enable: true
-  cache: cache/seo-link-visualizer.json
-  port: 1234
-  previewHost: localhost:4000/
-  categoryDepthLimits: 1    
-  allowedSourcePath:
-    - _posts/
-    # - _drafts
-  ignoreLink:
-    int:
-    ext:
-      - amazon
-      - amz
-      - flickr
-    toc:
