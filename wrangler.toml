@@ -2,7 +2,7 @@ name = "yudelog"
 type = "webpack"
 account_id = "996274e995fd60596f330964c55997cc"
 workers_dev = true
-route = "blog.yude.moe"
+route = "blog.yude.jp"
 zone_id = ""
 
 [site]
