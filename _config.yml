@@ -5,7 +5,7 @@ keywords: 'yude, yudelog, ゆで, yudete'
 author: yude
 language: ja
 timezone: Japan
-url: 'https://blog.yude.moe'
+url: 'https://blog.yude.jp'
 root: /
 permalink: ':title/'
 permalink_defaults: null
