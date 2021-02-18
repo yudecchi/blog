@@ -132,4 +132,4 @@ C言語のソースファイルを開いた状態で、`Ctrl` + `Shift` + `@` �
 
 # 終わり
 以上で Visual Studio Code を C 言語の開発に使う方法の説明を終わります。  
-不明な点があった場合、[Twitter](https://twitter.com/yudete) または Discord (`yude#3205`) までリプライや DM を送ってもらえれば、可能な範囲でお答えします。  
+不明な点があった場合、[Twitter](https://twitter.com/yudejp) または Discord (`yude#3205`) までリプライや DM を送ってもらえれば、可能な範囲でお答えします。  
