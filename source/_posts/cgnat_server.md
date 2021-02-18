@@ -44,7 +44,7 @@ author: yude
     また、個人的にここで SSH ポート を開放するのはおすすめしません。もし開放する場合は、接続元を限定して設定してください。
 1. Miredo をインストールする
     ```
-    sudo apt install miredo
+        sudo apt install miredo
     ```
     インストールするだけで動きます。しあわせ～
 1. Miredo で手に入れた IPv6 アドレス を確認し、Cloudflare に登録する

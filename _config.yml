@@ -26,7 +26,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: null
@@ -44,7 +44,7 @@ pagination_dir: page
 theme: apollo
 disqus_shortname: yudelog
 prism_plus:
-  enable: true
+  enable: false
   vendors:
     base_url: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/'
     prism:
