@@ -27,24 +27,24 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 ステップ 5. コンパイルした `exe` ファイルを実行する
 
 ## ステップ 1. MinGW のインストール
-まず、[/68260/mingw-get-setup.exeをダウンロード - MinGW - Minimalist GNU for Windows - OSDN ](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) を開いて、「MinGW-Get」というソフトウェアをダウンロードします。
-![a?!](../assets/images/how2vscode/1.png)  
+まず、[](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) を開いて、「MinGW-Get」というソフトウェアをダウンロードします。
+![](../assets/images/how2vscode/1.png)  
 `Install` をクリックして、インストールを始めます。  
-![Step 1](../assets/images/how2vscode/2.png)
+![](../assets/images/how2vscode/2.png)
 この画面では、特に何もいじらず `Continue` をクリックすればOKです。
-![Step 2](../assets/images/how2vscode/3.png)
+![](../assets/images/how2vscode/3.png)
 ダウンロードが始まりました。少し待てば終わります。  
-![こうなればOK](../assets/images/how2vscode/4.png)
+![](../assets/images/how2vscode/4.png)
 ⬆終わるとこんな感じになるので、`Continue` をクリックしましょう。  
 ![MinGW Installation Manager](../assets/images/how2vscode/5.png)  
 さっきの画面から一転、何やらゴチャゴチャしたウィンドウが開きます。ここから MinGW をインストールできる訳です。  
 `mingw32-base-bin` と `mingw32-gcc-g++-bin` のチェックボックスをクリックして、下の画像のように操作します。  
-![チェックボックス、入れていきましょう](../assets/images/how2vscode/6.png)  
+![](../assets/images/how2vscode/6.png)  
 その後、メニューバーから `Installation` をクリックして、`Apply Changes` をクリックします。  
-![メニューバー --> Apply Changes](../assets/images/how2vscode/7.png)  
+![](../assets/images/how2vscode/7.png)  
 すると... 確認画面が現れます。`Apply` をクリックするとインストールが始まります。  
-![Okay to proceed?](../assets/images/how2vscode/8.png)
-![Applying Scheduled Changes](../assets/images/how2vscode/9.png)
+![](../assets/images/how2vscode/8.png)
+![](../assets/images/how2vscode/9.png)
 終わると下のような表示になります。これで `MinGW Installation Manager` でやる作業は終わりなので、閉じてください。  
 ![All changes were applied successfully](../assets/images/how2vscode/10.png)
 
@@ -55,13 +55,13 @@ Eclipse には、最初からプログラミング言語を操るツールが付
 ここですね。  
 
 適当にインストールしていきましょう。
-![installpic_1](../assets/images/how2vscode/12.png)  
+![](../assets/images/how2vscode/12.png)  
 下の画面で、  
 * エクスプローラーのファイル コンテキスト メニューに [Code で開く] アクションを追加する
 * エクスプローラーのディレクトリ コンテキスト メニューに [Code で開く] アクションを追加する  
 
 にチェックを入れておくと便利です。
-![installpic_2](../assets/images/how2vscode/13.png)  
+![](../assets/images/how2vscode/13.png)  
 
 ## ステップ 3. Visual Studio Code の設定
 Visual Studio Code では、「拡張機能」というものをインストールして自由にカスタマイズすることができます。  
