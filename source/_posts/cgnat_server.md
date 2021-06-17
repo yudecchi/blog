@@ -17,7 +17,7 @@ author: yude
 <!--more-->
 # 必要なもの
 
-* Webサーバを建てるに耐えうる性能を持つコンピュータ
+* Webサーバを建てられる性能を持つコンピュータ
 * Cloudflare (無料アカウントでOK)
 * nginx (または他のWebサーバソフトウェア)
 * ufw (ファイアウォール)
@@ -50,8 +50,7 @@ author: yude
 1. Miredo で手に入れた IPv6 アドレス を確認し、Cloudflare に登録する
     ```
     curl --interface teredo ifconfig.io
-    ```
-    的な感じでやればいいです。  
+    ```  
     コマンドの実行結果を Cloudflare に AAAA レコード として登録してください。  
     (「プロキシ済み」表示となっていることを確認してください。)
 1. nginx のバーチャルホストを登録  
@@ -78,4 +77,4 @@ author: yude
 * 生の IPv6 アドレス を隠すため。
 * IPv4 だけでしか接続できない人がアクセスしても閲覧できるようにするため。
 ## 何か間違いを見つけたら？
-GitHub の [Issues](https://github.com/yudete/blog/issues) や [Pull requests](https://github.com/yudete/blog/pulls) よりお願いします。
+GitHub の [Issues](https://github.com/yudejp/blog/issues) や [Pull requests](https://github.com/yudejp/blog/pulls) よりお願いします。
