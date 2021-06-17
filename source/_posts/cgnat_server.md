@@ -36,42 +36,40 @@ author: yude
 * サーバのセットアップ
 
 1. ufw を設定する (すでに設定されている場合は飛ばしてください。)
-    ```
-    sudo ufw default deny
-    sudo ufw allow 80
-    sudo ufw enable
-    ```
-    また、個人的にここで SSH ポート を開放するのはおすすめしません。もし開放する場合は、接続元を限定して設定してください。
+```
+sudo ufw default deny
+sudo ufw allow 80
+sudo ufw enable
+```
+また、個人的にここで SSH ポート を開放するのはおすすめしません。もし開放する合は、接続元を限定して設定してください。
 1. Miredo をインストールする
-    ```
-    sudo apt install miredo
-    ```
-    インストールするだけで動きます。しあわせ～
+```
+sudo apt install miredo
+```
+インストールするだけで動きます。しあわせ～
 1. Miredo で手に入れた IPv6 アドレス を確認し、Cloudflare に登録する
-    ```
-    curl --interface teredo ifconfig.io
-    ```  
-    コマンドの実行結果を Cloudflare に AAAA レコード として登録してください。  
-    (「プロキシ済み」表示となっていることを確認してください。)
+```
+curl --interface teredo ifconfig.io
+```
+
+コマンドの実行結果を Cloudflare に AAAA レコード として登録してください。  
+(「プロキシ済み」表示となっていることを確認してください。)
 1. nginx のバーチャルホストを登録  
-    以下は例です。
-    ```
-    $ cat /etc/nginx/sites-enabled/example.com.conf
-    ```
-
-    ```
-    server {
-        listen [::]:80;
-
-        server_name example.com;
-        root /var/www/html;
-        index index.html;
-    }
-    ```
-    **IPv6 の** 80 番ポートを Listen していることを確認してください。  
-    設定ファイルを書き込んだら `sudo nginx -s reload` で反映させてください。
-
-    以上で完成です。楽しんでください。
+以下は例です。
+```
+$ cat /etc/nginx/sites-enabled/example.com.conf
+```
+```
+server {
+    listen [::]:80;
+    server_name example.com;
+    root /var/www/html;
+    index index.html;
+}
+```
+**IPv6 の** 80 番ポートを Listen していることを確認してください。\
+設定ファイルを書き込んだら `sudo nginx -s reload` で反映させてください。\
+以上で完成です。楽しんでください。
 # その他
 ## なぜ Cloudflare を使うのですか？
 * 生の IPv6 アドレス を隠すため。
